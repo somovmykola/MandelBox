@@ -1,0 +1,14 @@
+
+----------------------------define issue----------------------------------------
+#define statements all have to be in one line.
+you can also just use a / at the end of a line if you want a newline
+
+example
+
+#define plusCurrent(p,v){ \
+	p.x+=v.x; \
+	p.y+=v.y; \
+	p.z+=v.z; \
+}
+
+-----------------------------------------------------------------------------------
